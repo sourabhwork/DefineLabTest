@@ -1,0 +1,6 @@
+framework module Pods_SourabhKumbhar_DefineLabsTest {
+  umbrella header "Pods-SourabhKumbhar_DefineLabsTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

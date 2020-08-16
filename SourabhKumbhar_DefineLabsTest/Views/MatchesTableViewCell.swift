@@ -10,16 +10,14 @@ import UIKit
 
 class MatchesTableViewCell: UITableViewCell {
 
-    //@IBOutlet weak var contentView: UIView!
     @IBOutlet weak var sourceView   : UIView!
     @IBOutlet weak var nameLabel    : UILabel!
-    //@IBOutlet weak var addressLabel : UILabel!
-    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var cityLabel    : UILabel!
     @IBOutlet weak var starButton   : UIButton!
             
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -58,14 +56,7 @@ class MatchesTableViewCell: UITableViewCell {
     }
     
     @IBAction func starButtonTapp(_ sender: UIButton) {
-//        if sender.currentBackgroundImage ==  #imageLiteral(resourceName: "ic_unfillStar") {
-//            sender.setBackgroundImage(#imageLiteral(resourceName: "ic_fillstar "), for: .normal)
-//        } else if sender.currentBackgroundImage ==  #imageLiteral(resourceName: "ic_fillstar ") {
-//            sender.setBackgroundImage(#imageLiteral(resourceName: "ic_unfillStar"), for: .normal)
-//        }
-       // sender.setImage(#imageLiteral(resourceName: "ic_fillstar "), for: .normal)
+
     }
-    
-    
     
 }

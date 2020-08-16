@@ -11,28 +11,35 @@ import Alamofire
 
 class NetworkServices {
     
+    weak var networkServiceDelegate: NetworkServiceDelegate?
+    
     func getVenues() {
-        let request = AF.request(URLConstant.url).responseJSON {
-                    response in
+                
+        let request = AF.request(URLConstant.url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil, interceptor: nil, requestModifier: .none).validate().responseJSON { response in
             print("Response ===  \(response)")
-            
             switch response.result {
                 
             case .success(_):
-                if let data = response.data {
-                    do {
-                        // Parsing data and store into Website class
-                        //let responseDataArray = try JSONDecoder().decode([ResponseDataModel].self, from: data)
-                        // Getting data from website
-                        // Iterate for loop
-                        //self.delegate?.didGetData(dataModelArray: responseDataArray)
-                    } catch {
-                        print("Error thrown")
+                let dataJson = response.data
+                if let responseDictionary = response.value as? NSDictionary {
+                    let requiredResponseDict = responseDictionary.value(forKey: "response") as? NSDictionary
+                    var venueModelArray = [Venue]()
+                    if let venueArray = requiredResponseDict?.value(forKey: venues) as? NSArray{
+                        for venue in venueArray {
+                            let model = Venue()
+                            let venueDict = venue as? NSDictionary
+                            model.name = venueDict?.value(forKey: name) as? String
+                            model.id = venueDict?.value(forKey: id) as? String
+                            let locate = venueDict?.value(forKey: location) as? NSDictionary
+                            model.city = locate?.value(forKey: city) as? String
+                            venueModelArray.append(model)
+                        }
                     }
+                    self.networkServiceDelegate?.didGetVenueArray(venues: venueModelArray)
                 }
+                
             case .failure(let error):
-                break
-                //self.delegate?.didGetError(error: error.localizedDescription)
+                self.networkServiceDelegate?.didGetError(error: error.localizedDescription)
             }
         }
         print(request.description)

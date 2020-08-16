@@ -15,8 +15,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        fetchData()
+        self.title = home
     }
     
     @IBAction func drawerButtnTapp(_ sender: UIBarButtonItem) {
@@ -30,31 +29,7 @@ class HomeViewController: UIViewController {
             }
         }
     }
-    
-    private func fetchData() {
-        let networkServices = NetworkServices()
-        networkServices.getVenues()
-    }
-    
 }
-
-//extension HomeViewController: KYDrawerControllerDelegate{
-//
-//    func drawerController(_ drawerController: KYDrawerController, didChangeState state: KYDrawerController.DrawerState) {
-//        print("didChangeState")
-//        print(state.rawValue)
-//
-//    }
-//
-//    func drawerController(_ drawerController: KYDrawerController, willChangeState state: KYDrawerController.DrawerState) {
-//        print("willChangeState")
-//        print(state.rawValue)
-//    }
-//
-//    func drawerController(_ drawerController: KYDrawerController, stateChanged state: KYDrawerController.DrawerState) {
-//        print("stateChanged")
-//    }
-//}
 
 extension HomeViewController: DrawerMenuSelectionDelegate {
     

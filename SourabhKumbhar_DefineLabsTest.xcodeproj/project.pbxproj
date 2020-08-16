@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97438430AEC1646BEE8AADA1 /* Pods_SourabhKumbhar_DefineLabsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDE2696AAC57A77F65D75D5 /* Pods_SourabhKumbhar_DefineLabsTest.framework */; };
 		A8003AF924E7BC06003AA858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003AF824E7BC06003AA858 /* AppDelegate.swift */; };
 		A8003AFB24E7BC06003AA858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003AFA24E7BC06003AA858 /* SceneDelegate.swift */; };
 		A8003AFD24E7BC06003AA858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003AFC24E7BC06003AA858 /* ViewController.swift */; };
@@ -14,9 +15,27 @@
 		A8003B0324E7BC06003AA858 /* SourabhKumbhar_DefineLabsTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8003B0124E7BC06003AA858 /* SourabhKumbhar_DefineLabsTest.xcdatamodeld */; };
 		A8003B0524E7BC0A003AA858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8003B0424E7BC0A003AA858 /* Assets.xcassets */; };
 		A8003B0824E7BC0A003AA858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8003B0624E7BC0A003AA858 /* LaunchScreen.storyboard */; };
+		A8003B1024E7BF8C003AA858 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B0F24E7BF8C003AA858 /* HomeViewController.swift */; };
+		A8003B1224E7BFA0003AA858 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B1124E7BFA0003AA858 /* DrawerViewController.swift */; };
+		A8003B1424E7CC45003AA858 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B1324E7CC45003AA858 /* Constant.swift */; };
+		A8003B1724E7CE76003AA858 /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B1624E7CE76003AA858 /* NetworkServices.swift */; };
+		A8003B1924E7D885003AA858 /* AllMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B1824E7D885003AA858 /* AllMatchesViewController.swift */; };
+		A8003B1B24E7D8C8003AA858 /* VenueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B1A24E7D8C8003AA858 /* VenueModel.swift */; };
+		A8003B1D24E7D9EE003AA858 /* SavedMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B1C24E7D9EE003AA858 /* SavedMatchesViewController.swift */; };
+		A8003B1F24E7E04C003AA858 /* DrawerMenuSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B1E24E7E04C003AA858 /* DrawerMenuSelectionDelegate.swift */; };
+		A8003B2124E7E07B003AA858 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B2024E7E07B003AA858 /* Enums.swift */; };
+		A8003B2424E7E558003AA858 /* UIViewContollerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B2324E7E558003AA858 /* UIViewContollerHelper.swift */; };
+		A8003B2724E7F18B003AA858 /* MatchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8003B2524E7F18B003AA858 /* MatchesTableViewCell.swift */; };
+		A8003B2824E7F18B003AA858 /* MatchesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8003B2624E7F18B003AA858 /* MatchesTableViewCell.xib */; };
+		A8A4755124E7F55400A03342 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A4755024E7F55400A03342 /* UIViewHelper.swift */; };
+		A8A4755324E80E7900A03342 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A4755224E80E7900A03342 /* CoreDataHelper.swift */; };
+		A8A4755624E8280400A03342 /* NetworkServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A4755524E8280400A03342 /* NetworkServiceDelegate.swift */; };
+		A8A4755924E838D600A03342 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A4755824E838D600A03342 /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8388A28596ABE858391C3678 /* Pods-SourabhKumbhar_DefineLabsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SourabhKumbhar_DefineLabsTest.debug.xcconfig"; path = "Target Support Files/Pods-SourabhKumbhar_DefineLabsTest/Pods-SourabhKumbhar_DefineLabsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A3FEBDA0BCC0126933BA3B3B /* Pods-SourabhKumbhar_DefineLabsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SourabhKumbhar_DefineLabsTest.release.xcconfig"; path = "Target Support Files/Pods-SourabhKumbhar_DefineLabsTest/Pods-SourabhKumbhar_DefineLabsTest.release.xcconfig"; sourceTree = "<group>"; };
 		A8003AF524E7BC06003AA858 /* SourabhKumbhar_DefineLabsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SourabhKumbhar_DefineLabsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8003AF824E7BC06003AA858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8003AFA24E7BC06003AA858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +45,23 @@
 		A8003B0424E7BC0A003AA858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8003B0724E7BC0A003AA858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8003B0924E7BC0A003AA858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8003B0F24E7BF8C003AA858 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A8003B1124E7BFA0003AA858 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		A8003B1324E7CC45003AA858 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A8003B1624E7CE76003AA858 /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		A8003B1824E7D885003AA858 /* AllMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMatchesViewController.swift; sourceTree = "<group>"; };
+		A8003B1A24E7D8C8003AA858 /* VenueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueModel.swift; sourceTree = "<group>"; };
+		A8003B1C24E7D9EE003AA858 /* SavedMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMatchesViewController.swift; sourceTree = "<group>"; };
+		A8003B1E24E7E04C003AA858 /* DrawerMenuSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuSelectionDelegate.swift; sourceTree = "<group>"; };
+		A8003B2024E7E07B003AA858 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		A8003B2324E7E558003AA858 /* UIViewContollerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewContollerHelper.swift; sourceTree = "<group>"; };
+		A8003B2524E7F18B003AA858 /* MatchesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTableViewCell.swift; sourceTree = "<group>"; };
+		A8003B2624E7F18B003AA858 /* MatchesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchesTableViewCell.xib; sourceTree = "<group>"; };
+		A8A4755024E7F55400A03342 /* UIViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		A8A4755224E80E7900A03342 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		A8A4755524E8280400A03342 /* NetworkServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceDelegate.swift; sourceTree = "<group>"; };
+		A8A4755824E838D600A03342 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		AEDE2696AAC57A77F65D75D5 /* Pods_SourabhKumbhar_DefineLabsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SourabhKumbhar_DefineLabsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +69,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97438430AEC1646BEE8AADA1 /* Pods_SourabhKumbhar_DefineLabsTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		936F61BC6F0DFD0ADEDFEC75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEDE2696AAC57A77F65D75D5 /* Pods_SourabhKumbhar_DefineLabsTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A8003AEC24E7BC06003AA858 = {
 			isa = PBXGroup;
 			children = (
 				A8003AF724E7BC06003AA858 /* SourabhKumbhar_DefineLabsTest */,
 				A8003AF624E7BC06003AA858 /* Products */,
+				C1E46F984D724C7993008638 /* Pods */,
+				936F61BC6F0DFD0ADEDFEC75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +105,16 @@
 		A8003AF724E7BC06003AA858 /* SourabhKumbhar_DefineLabsTest */ = {
 			isa = PBXGroup;
 			children = (
+				A8003B1624E7CE76003AA858 /* NetworkServices.swift */,
+				A8003B1324E7CC45003AA858 /* Constant.swift */,
 				A8003AF824E7BC06003AA858 /* AppDelegate.swift */,
 				A8003AFA24E7BC06003AA858 /* SceneDelegate.swift */,
-				A8003AFC24E7BC06003AA858 /* ViewController.swift */,
+				A8003B1A24E7D8C8003AA858 /* VenueModel.swift */,
+				A8003B2024E7E07B003AA858 /* Enums.swift */,
+				A8A4755724E8368A00A03342 /* Views */,
+				A8A4755424E827DE00A03342 /* Delegates */,
+				A8003B2224E7E539003AA858 /* Helper */,
+				A8003B1524E7CE60003AA858 /* ViewControllers */,
 				A8003AFE24E7BC06003AA858 /* Main.storyboard */,
 				A8003B0424E7BC0A003AA858 /* Assets.xcassets */,
 				A8003B0624E7BC0A003AA858 /* LaunchScreen.storyboard */,
@@ -70,6 +124,56 @@
 			path = SourabhKumbhar_DefineLabsTest;
 			sourceTree = "<group>";
 		};
+		A8003B1524E7CE60003AA858 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8003AFC24E7BC06003AA858 /* ViewController.swift */,
+				A8003B0F24E7BF8C003AA858 /* HomeViewController.swift */,
+				A8003B1124E7BFA0003AA858 /* DrawerViewController.swift */,
+				A8003B1824E7D885003AA858 /* AllMatchesViewController.swift */,
+				A8003B1C24E7D9EE003AA858 /* SavedMatchesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A8003B2224E7E539003AA858 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A8003B2324E7E558003AA858 /* UIViewContollerHelper.swift */,
+				A8A4755024E7F55400A03342 /* UIViewHelper.swift */,
+				A8A4755224E80E7900A03342 /* CoreDataHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A8A4755424E827DE00A03342 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				A8003B1E24E7E04C003AA858 /* DrawerMenuSelectionDelegate.swift */,
+				A8A4755524E8280400A03342 /* NetworkServiceDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		A8A4755724E8368A00A03342 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8A4755824E838D600A03342 /* ProgressView.swift */,
+				A8003B2624E7F18B003AA858 /* MatchesTableViewCell.xib */,
+				A8003B2524E7F18B003AA858 /* MatchesTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1E46F984D724C7993008638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8388A28596ABE858391C3678 /* Pods-SourabhKumbhar_DefineLabsTest.debug.xcconfig */,
+				A3FEBDA0BCC0126933BA3B3B /* Pods-SourabhKumbhar_DefineLabsTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8003B0C24E7BC0A003AA858 /* Build configuration list for PBXNativeTarget "SourabhKumbhar_DefineLabsTest" */;
 			buildPhases = (
+				BABDC5CD0B7E4DCE98A61673 /* [CP] Check Pods Manifest.lock */,
 				A8003AF124E7BC06003AA858 /* Sources */,
 				A8003AF224E7BC06003AA858 /* Frameworks */,
 				A8003AF324E7BC06003AA858 /* Resources */,
+				817173E89DDBB4008217EBAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8003B0824E7BC0A003AA858 /* LaunchScreen.storyboard in Resources */,
+				A8003B2824E7F18B003AA858 /* MatchesTableViewCell.xib in Resources */,
 				A8003B0524E7BC0A003AA858 /* Assets.xcassets in Resources */,
 				A8003B0024E7BC06003AA858 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +243,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		817173E89DDBB4008217EBAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SourabhKumbhar_DefineLabsTest/Pods-SourabhKumbhar_DefineLabsTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SourabhKumbhar_DefineLabsTest/Pods-SourabhKumbhar_DefineLabsTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SourabhKumbhar_DefineLabsTest/Pods-SourabhKumbhar_DefineLabsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BABDC5CD0B7E4DCE98A61673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SourabhKumbhar_DefineLabsTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8003AF124E7BC06003AA858 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8003B1424E7CC45003AA858 /* Constant.swift in Sources */,
+				A8003B1024E7BF8C003AA858 /* HomeViewController.swift in Sources */,
+				A8003B1924E7D885003AA858 /* AllMatchesViewController.swift in Sources */,
+				A8A4755624E8280400A03342 /* NetworkServiceDelegate.swift in Sources */,
+				A8003B1D24E7D9EE003AA858 /* SavedMatchesViewController.swift in Sources */,
+				A8A4755324E80E7900A03342 /* CoreDataHelper.swift in Sources */,
 				A8003B0324E7BC06003AA858 /* SourabhKumbhar_DefineLabsTest.xcdatamodeld in Sources */,
+				A8003B2424E7E558003AA858 /* UIViewContollerHelper.swift in Sources */,
+				A8A4755124E7F55400A03342 /* UIViewHelper.swift in Sources */,
+				A8003B1F24E7E04C003AA858 /* DrawerMenuSelectionDelegate.swift in Sources */,
+				A8003B2724E7F18B003AA858 /* MatchesTableViewCell.swift in Sources */,
 				A8003AFD24E7BC06003AA858 /* ViewController.swift in Sources */,
+				A8003B2124E7E07B003AA858 /* Enums.swift in Sources */,
 				A8003AF924E7BC06003AA858 /* AppDelegate.swift in Sources */,
 				A8003AFB24E7BC06003AA858 /* SceneDelegate.swift in Sources */,
+				A8003B1B24E7D8C8003AA858 /* VenueModel.swift in Sources */,
+				A8A4755924E838D600A03342 /* ProgressView.swift in Sources */,
+				A8003B1724E7CE76003AA858 /* NetworkServices.swift in Sources */,
+				A8003B1224E7BFA0003AA858 /* DrawerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +450,7 @@
 		};
 		A8003B0D24E7BC0A003AA858 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8388A28596ABE858391C3678 /* Pods-SourabhKumbhar_DefineLabsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +468,7 @@
 		};
 		A8003B0E24E7BC0A003AA858 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FEBDA0BCC0126933BA3B3B /* Pods-SourabhKumbhar_DefineLabsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

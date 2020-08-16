@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol NetworkServiceDelegate: class {
+    func didGetVenueArray(venues: Array<Venue>)
+    func didGetError(error: String)
+}

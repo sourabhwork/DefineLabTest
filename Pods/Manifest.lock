@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.2.0)
+  - KYDrawerController (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - KYDrawerController
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KYDrawerController
+
+SPEC CHECKSUMS:
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
+
+PODFILE CHECKSUM: 574c701773cf40302c45d8933148f5174824f4bd
+
+COCOAPODS: 1.9.1

@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class Venue {
+    var id      : String?
+    var name    : String?
+    var city    : String?
+}

@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+
+enum DrawerMenu {
+    case AllMatches
+    case SavedMatches
+}
+
+enum NavigationDrawerState {
+    case open
+    case close
+}
